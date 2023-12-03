@@ -1,0 +1,16 @@
+.header {
+  height: 85px;
+}
+.header__nav-hover::after {
+  transition: width 0.2s linear;
+  content: "";
+  height: 2px;
+  width: 0;
+  background-color: #da0000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.header__nav-hover:hover::after{
+  width: 100%;
+}
